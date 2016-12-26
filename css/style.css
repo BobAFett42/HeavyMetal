@@ -1,0 +1,53 @@
+@font-face {
+    font-family: heavyMetal;
+    src: url('metal_lord.ttf');
+}
+
+body {
+
+background-color:black;
+    
+}
+
+h1 {
+   
+color:white;
+text-align: center;
+    
+}
+
+h2 {
+   
+color:white;
+    
+}
+
+#bandNameTitle {
+   
+color:white;
+padding-left:75px;
+    
+}
+
+#inputs {
+    padding-bottom:10px;
+    padding-left:60px;
+}
+
+#buttons {
+   padding:20px; 
+   padding-left:80px;
+}
+
+input{
+   margin-left:15px;
+}
+
+#nameTitle {
+   margin-left: 15px; 
+}
+
+#bandName {
+   color:white; 
+   font-family:heavyMetal;
+}

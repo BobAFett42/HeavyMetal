@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heavy Metal Band Name Generator</title>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    
+    <body>
+        <!-- Title of page -->
+        <h1>Heavy Metal Band Name Generator</h1>
+        <!-- Form for entering first and last name and generating band name -->
+            <div id="inputs">
+                <!-- Get first name -->
+                <h2 id="nameTitle">First Name:</h2>
+                <input type="text" name="firstName" id="firstName" required></input></br>
+            
+                <!-- Get last name -->
+                <h2 id="nameTitle">Last Name:</h2>
+                <input type="text" name="lastName" id="lastName" required></input></br>
+            </div>
+            
+            <div id="buttons"> 
+                <!-- Click button to generate band name based on inputted name-->
+                <input type="submit" value="Generate" onclick="generate()"></input>
+            
+                <!-- Click button to generate random band name -->
+                <input type="submit" value="Random" onclick="random()"></input>
+            </div> 
+            
+            <!-- Display band name -->
+            <h2 id="bandNameTitle" 
+            >Band Name:</h2>
+            <h1 id="bandName"></h1>
+    </body>
+</html>
